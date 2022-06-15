@@ -17,5 +17,6 @@ def main():
     tops = set(deps.keys())
     tops -= nontops
 
+    print("v.0.2.0")
     print("tops", tops)
     print("nontops", nontops)
